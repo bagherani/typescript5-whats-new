@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "./tsconfig.base.json",
+    "./tsconfig.dist.json"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "node16"
+  }
+}
