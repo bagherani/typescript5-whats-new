@@ -1,0 +1,5 @@
+--declaration
+--emitDeclarationOnly
+--declarationMap
+--sourceMap
+--inlineSourceMap
