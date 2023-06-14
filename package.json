@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist && ./node_modules/typescript5/bin/tsc",
+    "build": "rm -rf ./dist && ./node_modules/typescript51/bin/tsc",
+    "build5": "rm -rf ./dist && ./node_modules/typescript5/bin/tsc",
     "build4": "rm -rf ./dist && ./node_modules/typescript4/bin/tsc",
     "buildswc": "swc src -d dist"
   },
@@ -15,7 +16,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "typescript4": "npm:typescript@^4",
-    "typescript5": "npm:typescript@5.0"
+    "typescript5": "npm:typescript@5.0",
+    "typescript51": "npm:typescript@^5"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
