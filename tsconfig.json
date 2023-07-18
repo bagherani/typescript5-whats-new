@@ -1,9 +1,20 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "jsx": "react",
     "baseUrl": "src",
-    "target": "esnext",
-    "moduleResolution": "nodenext",
-    "experimentalDecorators": true
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "importsNotUsedAsValues": "preserve",
+    "experimentalDecorators": true,
+    // "typeRoots": [
+    //   // Keep whatever you had around before.
+    //   "./some-custom-types/",
+    //   // You might need your local 'node_modules/@types'.
+    //   "./node_modules/@types",
+    //   // You might also need to specify a shared 'node_modules/@types'
+    //   // if you're using a "monorepo" layout.
+    //   "../../node_modules/@types",
+    // ]
   }
 }

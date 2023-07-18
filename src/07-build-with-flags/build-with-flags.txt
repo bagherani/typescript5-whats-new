@@ -1,3 +1,5 @@
+// checkout package.json
+
 --declaration
 --emitDeclarationOnly
 --declarationMap

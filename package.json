@@ -5,9 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist && ./node_modules/typescript51/bin/tsc",
-    "build5": "rm -rf ./dist && ./node_modules/typescript5/bin/tsc",
-    "build4": "rm -rf ./dist && ./node_modules/typescript4/bin/tsc",
+    "build": "time rm -rf ./dist && time ./node_modules/typescript51/bin/tsc",
+    "build2": "time rm -rf ./dist && time ./node_modules/typescript51/bin/tsc  --declaration --declarationMap",
+    "build5": "time rm -rf ./dist && time ./node_modules/typescript5/bin/tsc",
+    "build4": "time rm -rf ./dist && time ./node_modules/typescript4/bin/tsc",
     "buildswc": "swc src -d dist"
   },
   "keywords": [],

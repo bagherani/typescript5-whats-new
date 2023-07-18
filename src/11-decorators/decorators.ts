@@ -5,7 +5,7 @@
 
 // ✅ allowed
 @register
-export default class Foo {
+export default class Foo2 {
   // ...
 }
 
@@ -22,3 +22,5 @@ class Bar {
 export class Bar2 {
   // ...
 }
+
+function register(target: any, c: any) {}
