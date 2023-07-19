@@ -6,8 +6,6 @@ const enum Values {
   Third, // 12
 }
 
-// type Values = Values.First | Values.Second | Values.Third;
-
 const enum Routes {
   Parts = `${prefix}/parts`, // "/data/parts"
   Invoices = `${prefix}/invoices`, // "/data/invoices"

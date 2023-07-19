@@ -1,6 +1,6 @@
 interface Serializer {
   // remove string
-  set value(v: string | number | boolean);
+  set value(v: number | boolean);
   get value(): string;
 }
 

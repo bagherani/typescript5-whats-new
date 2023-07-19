@@ -1,3 +1,1 @@
-export type * as NewTypes from "./module";
-// also
-export type * from "./module";
+export type * as BookClasses from "./module";

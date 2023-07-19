@@ -5,7 +5,7 @@
 /**
  * @overload add(a, b)
  * @param {number} a 
- * @param {number} b 
+ * @param {string} b 
  */
 export function add(a, b) {
 }

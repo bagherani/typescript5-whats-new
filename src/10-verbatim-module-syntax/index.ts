@@ -5,6 +5,6 @@
 
 import { Device } from "./module";
 
-export function getDefaultDevice(): Device {
-  return { id: "", someFunction() {} };
+export function getDefaultDevice(): Device | null {
+  return null;
 }

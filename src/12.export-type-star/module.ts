@@ -1,3 +1,1 @@
-export type BookModel = {
-  title: string;
-};
+export class BookClass {}

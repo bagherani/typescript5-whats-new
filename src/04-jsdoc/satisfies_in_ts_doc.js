@@ -4,8 +4,6 @@
  * @prop {string} [OUTDIR]
  */
 
-
-
 /**
  * @satisfies {CompilerOptions}
  */
