@@ -7,15 +7,9 @@
  protocol.d.ts doesn't exist anymore
 */
 
-// version 4
-function func(ns: number | string) {
-  return ns * 4; // Error, possible implicit coercion
-}
-
-// version 5
 // relational operators
-function func2(ns: number | string) {
-  return ns > 4; // Now also an error
+function func2(num: number | string) {
+  return num > 4; // Now also an error
 }
 
 // Enum Overhaul and Refactoring
@@ -24,21 +18,20 @@ enum SomeEvenDigit {
   Two = 2,
   Four = 4,
 }
-// Now correctly an error
+// error
 let m: SomeEvenDigit = 1;
 
 //
 enum Letters {
   A = "a",
 }
-enum Numbers {
-  one = 1,
-  two = Letters.A,
-}
-// Now correctly an error
-const t: number = Numbers.two;
 
-// More Accurate Type-Checking for Parameter Decorators in Constructors Under --experimentalDecorators
+enum Numbers {
+  NumA = Letters.A,
+}
+
+// Now correctly an error
+const t: number = Numbers.NumA;
 
 // deprecated switches and would be removed in ts 5.5
 /*
@@ -52,7 +45,6 @@ const t: number = Numbers.two;
 --charset
 --importsNotUsedAsValues
 --preserveValueImports
-prepend in project references
 */
 
 // ts 5.1

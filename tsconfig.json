@@ -4,9 +4,12 @@
     "jsx": "react",
     "baseUrl": "src",
     "target": "ESNext",
-    "moduleResolution": "NodeNext",
-    "importsNotUsedAsValues": "preserve",
-    "experimentalDecorators": true,
+    "moduleResolution": "Bundler",
+    "allowArbitraryExtensions": true
+    // "verbatimModuleSyntax": true
+    // "importsNotUsedAsValues": "preserve",
+    // "preserveValueImports": true,
+    // "isolatedModules": true,
     // "typeRoots": [
     //   // Keep whatever you had around before.
     //   "./some-custom-types/",

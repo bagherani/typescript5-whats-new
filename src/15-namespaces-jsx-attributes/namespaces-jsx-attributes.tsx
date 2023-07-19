@@ -1,11 +1,16 @@
 import * as React from "react";
-// Both of these are equivalent:
+
 const x = <Foo a:b="hello" />;
 const y = <Foo a : b="hello" />;
-interface FooProps {
+
+type FooProps = {
     "a:b": string;
+    // "a:c"?: string;
 }
+
+
 function Foo(props: FooProps) {
-    return <div>{props["a:b"]}</div>;
+    const ab = props["a:b"];
+    return null;
 }
 

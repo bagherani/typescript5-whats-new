@@ -1,3 +1,6 @@
 {
-  "typescript.tsdk": "./node_modules/typescript4/lib"
+  "typescript.tsdk": "./node_modules/typescript4/lib",
+  "typescript.unstable": {
+    // "organizeImportsIgnoreCase": true
+  }
 }
