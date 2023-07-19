@@ -1,4 +1,4 @@
-declare function foo<T>(x: T): T;
+declare function foo<const T>(x: T): T;
 
 const x1 = foo("a");
 const x2 = foo(["a", ["b", "c"]]);

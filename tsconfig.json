@@ -6,7 +6,7 @@
     "target": "ESNext",
     "moduleResolution": "Bundler",
     "allowArbitraryExtensions": true,
-    // "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true
     // "importsNotUsedAsValues": "preserve",
     // "preserveValueImports": true,
     // "isolatedModules": true,

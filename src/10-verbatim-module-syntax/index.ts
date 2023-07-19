@@ -3,7 +3,7 @@
 // set verbatimModuleSyntax : true
 // add type before Device
 
-import { Device } from "./module";
+import { type Device } from "./module.js";
 
 export function getDefaultDevice(): Device | null {
   return null;

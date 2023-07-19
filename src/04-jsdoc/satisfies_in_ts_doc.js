@@ -8,6 +8,6 @@
  * @satisfies {CompilerOptions}
  */
 let myCompilerOptions = {
-  outdir: "../lib",
+  OUTDIR: "../lib",
   //  ~~~~~~ oops! we meant outDir
 };

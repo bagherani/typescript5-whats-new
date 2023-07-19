@@ -1,9 +1,10 @@
-declare function takesFunction(f: () => undefined): undefined;
+declare function takesFunction(f: () => void): undefined;
 
 // ❌ error!
 // Argument of type '() => void' is not assignable to parameter of type '() => undefined'.
 takesFunction(() => {
   //
+  return undefined;
 });
 
 // ❌ error!

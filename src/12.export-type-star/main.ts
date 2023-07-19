@@ -1,2 +1,2 @@
-import { BookClasses } from "./index";
+import { type BookClasses } from "./index";
 new BookClasses.BookClass();
